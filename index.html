@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+      <h1>WELCOME</h1>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">SA</div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+
+        <label for="menu-toggle" class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="animated-bg"></div>
+
+      <div class="hero-content">
+        <div class="hero-info">
+          <!-- FIXED: Name + short intro instead of generic headline -->
+          <h1>Hi, I'm <span class="gradient">Saajidah Abrahams</span></h1>
+          <p class="hero-tagline">Aspiring Front-End Developer</p>
+          <p>
+            I'm passionate about building clean, responsive websites and growing
+            my skills in HTML, CSS, and JavaScript — one project at a time.
+          </p>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://i.ibb.co/4RR7RzGR/IMG-6617.png"
+            alt="Saajidah Abrahams"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+
+      <div class="about-container">
+        <p>
+          Hi, my name is Saajidah Abrahams and I am currently learning front-end
+          web development. I am still building my skills in HTML, CSS, and
+          JavaScript, but I enjoy the process of creating simple websites and
+          improving them step by step. I am interested in both design and
+          structure, and I like how websites can be creative but also
+          functional. I am still at the beginning of my journey, but I am
+          motivated to keep learning and improving through practice and personal
+          projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="cards">
+        <div class="card">
+          <img
+            src="https://i.ibb.co/bjgDY0JY/Screenshot-2026-06-05-112231.png"
+            alt="Project 1"
+          />
+          <h3>Responsive Image Gallery</h3>
+          <p>Responsive image gallery</p>
+
+          <div class="project-btns">
+            <a
+              href="https://github.com/saajidah2007-sudo/CSS-Excercise-2.git"
+              target="_blank"
+              class="project-btn"
+              >GitHub</a
+            >
+            <a
+              href="https://image-gallery-css-project.netlify.app/"
+              target="_blank"
+              class="project-btn"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://i.ibb.co/rGVWdgcH/Screenshot-2026-06-05-115837.png"
+            alt="Project 2"
+          />
+          <h3>Product showcase page</h3>
+          <p>
+            A modern product display page designed to improve my CSS styling
+            skills, responsive layouts, and visual presentation.
+          </p>
+
+          <div class="project-btns">
+            <a
+              href="https://github.com/saajidah2007-sudo/CSS-Exercise-3.git"
+              target="_blank"
+              class="project-btn"
+              >GitHub</a
+            >
+            <a
+              href="https://product-showcase-css-project.netlify.app/"
+              target="_blank"
+              class="project-btn"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://i.ibb.co/nsJkDQhr/Screenshot-2026-06-05-120132.png"
+            alt="Project 3"
+          />
+          <h3>Bootstrap Store Website</h3>
+          <p>
+            An e-commerce style website built using Bootstrap, featuring
+            responsive layouts, navigation components, and modern design
+            principles.
+          </p>
+
+          <div class="project-btns">
+            <a
+              href="https://github.com/saajidah2007-sudo/CSS-Exercise-4.git"
+              target="_blank"
+              class="project-btn"
+              >GitHub</a
+            >
+            <a
+              href="https://bootstrap-store-css-project.netlify.app/"
+              target="_blank"
+              class="project-btn"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>My Skills</h2>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>HTML</span>
+          <span class="skill-percent">50%</span>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar html"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>CSS</span>
+          <span class="skill-percent">40%</span>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar css"
+            role="progressbar"
+            aria-valuenow="40"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>JavaScript</span>
+          <span class="skill-percent">50%</span>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar javascript"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>GitHub</span>
+          <span class="skill-percent">60%</span>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar github"
+            role="progressbar"
+            aria-valuenow="60"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="journey">
+      <h2>My Learning Journey</h2>
+
+      <div class="timeline">
+        <div class="timeline-card">
+          <h3>2022 - Curiosity 🤔</h3>
+          <p>Developed an interest in technology and websites.</p>
+        </div>
+
+        <div class="timeline-card">
+          <h3>2025 - Exploration 🧭</h3>
+          <p>Started learning more about web development.</p>
+        </div>
+
+        <div class="timeline-card">
+          <h3>2025 - Growth 💡</h3>
+          <p>Building projects using HTML, CSS and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+
+      <p class="contact-intro">
+        Have a project in mind? Let's work together. Reach out via the form or
+        connect with me on social platforms.
+      </p>
+
+      <div class="contact-wrapper">
+        <form
+          action="https://formspree.io/f/xjgdrpkr"
+          method="POST"
+          class="contact-form slide-in"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info-section">
+        <h3>Connect With Me</h3>
+        <div class="contact-links">
+          <a href="mailto:saajidah2007@gmail.com" class="contact-link">
+            <span class="contact-icon">📧</span>
+            <span class="contact-text">
+              <strong>Email</strong>
+              <p>saajidah2007@gmail.com</p>
+            </span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/saajidah-abrahams-440178414/"
+            target="_blank"
+            class="contact-link"
+          >
+            <span class="contact-icon">💼</span>
+            <span class="contact-text">
+              <strong>LinkedIn</strong>
+              <p>View My Profile</p>
+            </span>
+          </a>
+
+          <a
+            href="https://github.com/saajidah2007-sudo"
+            target="_blank"
+            class="contact-link"
+          >
+            <span class="contact-icon">💻</span>
+            <span class="contact-text">
+              <strong>GitHub</strong>
+              <p>View My Projects</p>
+            </span>
+          </a>
+
+          <div class="contact-link location">
+            <span class="contact-icon">📍</span>
+            <span class="contact-text">
+              <strong>Location</strong>
+              <p>Cape Town, South Africa</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Saajidah Abrahams</p>
+    </footer>
+  </body>
+</html>
